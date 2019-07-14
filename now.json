@@ -1,0 +1,10 @@
+
+
+  {
+    "version": 2,
+    "name": "elinfiernotest",
+    "builds": [
+      { "src": "public/**/*", "use": "@now/node" }
+    ],
+    "routes": [{ "src": "/", "dest": "public/index.html" }]
+  }
